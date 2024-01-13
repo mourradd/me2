@@ -59,4 +59,6 @@ git tag -d v1.4
  Delete Tag Remotely
 ```bash
 git push origin --delete v1.4
+```
+
   ![alt text](https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg)
