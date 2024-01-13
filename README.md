@@ -27,4 +27,36 @@
   41 git tag -a v1.4 -m "my version 1.4"
   49 git push origin --tags
 ```
+remove repo locally and remotely
+
+ remove them locally:
+```bash
+git branch -d test
+git branch -d dev
+```
+ remove them remotely:
+```bash
+git push origin --delete test
+git push origin --delete dev
+```
+ Create Tag Name
+```bash
+git tag -a v1.4 -m "Version 1.4"
+```
+ Push Tag Name
+```bash
+git push origin v1.4
+```
+ List Tag Name
+```bash
+git tag
+```
+ Delete Tag Locally and remotely
+Delete Tag Locally
+```bash
+git tag -d v1.4
+```
+ Delete Tag Remotely
+```bash
+git push origin --delete v1.4
   ![alt text](https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg)
